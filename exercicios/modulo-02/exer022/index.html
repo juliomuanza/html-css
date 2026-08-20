@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer022-grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        nav {
+            background-color: dimgray;
+            padding: 5px;
+            box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.506);
+            border-radius: 0px 8px;
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        article {
+            background-color: rgb(215, 213, 213);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(162, 161, 161);
+            padding: 2px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre a Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptatum mollitia exercitationem quod dolores atque nobis dicta eos magnam numquam sequi rem recusandae nisi accusamus sit aspernatur temporibus voluptatem. Eaque!</p>
+                <aside>
+                    Artigo escrito por Júlio Monteiro
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela VerneTec</p>
+    </footer>
+    
+</body>
+</html>

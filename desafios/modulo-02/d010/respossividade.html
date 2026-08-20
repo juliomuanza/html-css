@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body {
+            background-color: khaki;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+
+            /* min-width e max-width informaram o tamanho da largura min e max que o conteúdo irá ocupar na view-port [tela] */
+            min-width: 320px;
+            max-width: 800px;
+
+            /* "Margin auto" serve para cntralizar a box */
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Site Responsivo
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel dolores odio voluptates eaque quidem quibusdam deserunt incidunt eveniet, possimus nisi recusandae veritatis iste repellat ex pariatur voluptatum, maiores nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda iure officia asperiores deserunt laudantium beatae modi excepturi, sit consectetur hic ducimus officiis qui reprehenderit, blanditiis dolorem, fuga neque dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci quasi similique ex quod. Optio, dolorem. Fugit nostrum mollitia delectus quos, doloribus quis, ullam ab harum veritatis consequuntur quidem provident.
+        </p>
+
+        <picture>
+            <source media="(max-width: 650px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel dolores odio voluptates eaque quidem quibusdam deserunt incidunt eveniet, possimus nisi recusandae veritatis iste repellat ex pariatur voluptatum, maiores nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda iure officia asperiores deserunt laudantium beatae modi excepturi, sit consectetur hic ducimus officiis qui reprehenderit, blanditiis dolorem, fuga neque dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci quasi similique ex quod. Optio, dolorem. Fugit nostrum mollitia delectus quos, doloribus quis, ullam ab harum veritatis consequuntur quidem provident.
+        </p>
+    </main>
+    
+</body>
+</html>

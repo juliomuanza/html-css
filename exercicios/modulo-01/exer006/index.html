@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer006-formatação</title>
+</head>
+<body>
+    <h1>Formatação de Textos</h1>
+    <br>
+
+    <h2>Texto negrito, itálico e Marcação</h2>
+    <h3>Negrito</h3>
+    <p>Para <strong>negritar um texto</strong> usa-se a tag &lt;strong&gt; &lt;/strong&gt;</p>
+
+    <h3>Itálico</h3>
+    <p><em>Para dar enface no texto</em> usa-se a tag &lt;em&gt; &lt;/em&gt;</p>
+
+    <h3>Marcação</h3>
+    <p>Para <mark>marcação de texto</mark> em HTML5 usa-se a tag &lt;mark&gt; &lt;/mark&gt;</p>
+
+    <h2>Deletar, sublinhar</h2>
+    <h3>Deletar</h3>
+    <p>Para <del>deletar texto em HTML5</del> usa-se a tag &lt;del&gt; &lt;/del&gt;</p>
+    <h3>Sublinhar</h3>
+    <p>Para <ins>sublinhar textos</ins> em HTML usa-se a tag &lt;ins&gt; &lt;/ins&gt;</p>
+
+    <h2>Citação</h2>
+    <p>Para fazer <q>citação no meio do parágafo</q> usa-se a tag &lt;q&gt; &lt;/q&gt;</p>
+    <p>No caso de citação de um parágrafo inteiro usa-se a tag &lt;blockquote&gt; &lt;/blockquote&gt; <br> <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto earum ea porro, voluptatibus vero dicta nobis sequi libero doloribus officiis harum vitae itaque quis corrupti molestias recusandae voluptas eum veniam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptate alias consectetur velit. Cumque aut sed magni, itaque ex enim necessitatibus voluptatem in hic iste. Beatae architecto similique provident optio.</blockquote></p>
+
+    <h2>Texto subrescrito e subscrito</h2>
+    <h3>Subrecritor</h3>
+    <p>Para subrecrever texto como H<sub>2</sub>O usa-se a tag &lt;sub&gt; &lt;/sub&gt;</p>
+    <h3>Subscrito</h3>
+    <p>Para subscriver o texto como X<sup>2</sup>+3X<sup>4</sup> usa-se a tag &lt;sup&gt; &lt;/sup&gt;</p>
+
+    <h2>Abreviações</h2>
+    <p>Para criar abreviações em <abbr title="Línguagem de Marcação de Hipertexto">HTML</abbr> usa-se a tag &lt;abbr&gt; &lt;/abbr&gt;</p>
+
+    <h2>Techos de Códigos</h2>
+    <p>Para incluir trechos de códigos utilizamos as tag &lt;code&gt; &lt;/code&gt; para apresentação do código monospace. E a tag &lt;pre&gt; &lt;/pre&gt; para deixar o texto pré-formatado com as suas propriedades.</p>
+
+    <pre>   
+        <code>
+            const int led = 5;
+
+            void setup() {
+                Serial.begin(115200);
+                pinMode(led, OUTPUT);
+            }
+
+            void loop() {
+                digitalWrite(led, HIGH);
+                delay(1000);
+                digitalWrite(led, LOW);
+                delay(1000);
+            }
+        </code>
+    </pre>
+    
+
+</body>
+</html>

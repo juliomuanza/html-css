@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../imagem/icon/icon-symbolic-homerun.svg" type="image/x-icon">
+    <title>exer009-midias</title>
+</head>
+<body>
+    <!-- imagens flexíveis em HTML5 -->
+    <h1>IMAGENS FLEXÍVEIS</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <!-- Altere entre três imagens com tamanhos diferentes, considerando o tamanho da tela -->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+
+    <!-- Reproduzindo áudio em HTML5. 
+     Sempre utilize dois ou mais tipos de arquivos de áudio-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <audio preload="auto" controls>
+        <!-- Atributos Importantes
+         # controls - monstra play, pause, volume
+         # autoplay - inicia a reprodução ao carregar a página
+         # loop - repete infinitamente
+         # muted - começa mudo -->
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="image/wav">
+    </audio>
+
+    <!-- Se não suportar áudio, baixe -->
+    <p>Seu navegador não suporta áudio <a href="midia/happy-mistake.mp3" download="som.mp3" type="audio/mpeg">baixar</a></p>
+
+    
+</body>
+</html>
+
+
+

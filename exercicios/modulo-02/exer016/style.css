@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Regra para que não haja problemas de acentuação */
+
+body {
+    background-image: linear-gradient(90deg, pink 10%, yellow);
+    color: crimson;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h1 {
+    color: crimson;
+
+}
+a {
+
+    color: crimson;
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+
+# ---- APPLICATION ----
+
+application/zip
+application/pdf
+
+
+# ---- TEXT ----
+
+text/css
+text/html
+text/javascript
+
+# ---- VIDEO ----
+
+video/mp4
+video/webm
+video/ogv
+video/m4v
+video/H264
+
+Os melhores formatos são mp4, webm e ogv
+
+# ---- AUDIO ----
+
+audio/mpeg
+audio/ogg
+audio/wav
+audio/aac
+audio/m4a
+
+Os melhores formatos são mpeg, ogg e wav
+
+# ---- IMAGE ----
+
+image/png
+image/jpeg
+
+
+# ---- FONT ----
+
+font/ttf
+

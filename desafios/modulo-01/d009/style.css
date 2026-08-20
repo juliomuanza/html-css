@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuação */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centralizar texto */
+}
+
+a {
+    color: rgb(255, 255, 255);
+}

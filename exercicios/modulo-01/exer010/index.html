@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer010-vídeos</title>
+</head>
+<body style="text-align: center;">
+    <!-- Reproduzindo vídeos em HTML5 -->
+    <h1>Reproduzindo Vídeos Em HTML5</h1>
+
+    <!-- Vídeo hospedado localmente -->
+    <h2>Vídeo hospedado localmente</h2>
+
+    <video width="600px" poster="imagens/limoes-capa.png" controls  loop mute>
+        <!-- 
+        Outros Atributos
+         # widht - largura que o vídeo vai ter na tela.
+         # poster - imagem que serve de capa para o vídeo
+          -->
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+    </video>
+
+    <!-- Vídeo não hospedado localmente com iframe-->
+    <h2>Vídeo hospedado no YouTube/Vimeo</h2>
+
+    <iframe width="500" height="300"  src="https://www.youtube.com/embed/SEU_ID_DO_VIDEO" title="Vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; cliboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Vídeo não hospedado localmente com tag video + CDN-->
+    <h2>Vídeo hospedado externamente</h2>
+
+    <video width="600" height="400" poster="https://www.site.com/capa.jpg" controls muted>
+        <source src="https://www.cdn.site.com/videos/aula.mp4" type="video/mp4">
+        <source src="https://www.cdn.site.com/videos/aula.webm" type="video/webm">
+    </video>
+    <p>Seu navegador não suporta vídeo HTML5: <a href="https://www.cdn.site.com/videos/aula.mp4" target="_blank" rel="external" download="aula.mp4" type="video/mp4">baixe</a></p>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'minha fonte';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: rgba(142, 228, 142, 0.777);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgb(77, 182, 77), rgba(0, 0, 0, 0.568));
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#slogan {
+    width: 400px;
+    margin: 20px auto;
+}
+
+#cabecalho {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    background-color: rgb(1, 57, 1);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    font-family: 'minha fonte';
+    color: rgb(1, 57, 1);
+}
+
+h2 {
+    background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.278) 10%, white 90%);
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 50px 10px 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.especial {
+    color: rgb(26, 101, 26);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.especial:hover {
+    text-decoration: underline;
+}
+
+article > aside {
+    background-color: rgba(153, 214, 153, 0.701);
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > p#extra {
+    background-color: rgb(63, 154, 63);
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside {
+    margin: 20px;
+}
+
+footer {
+    background-color: rgb(1, 57, 1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
